@@ -1,0 +1,41 @@
+[2025-11-15 20:11:33] Modo Dry-Run: se omite elevación de administrador.
+[2025-11-15 20:11:33] Inicio del Optimizador (DryRun=True)
+[2025-11-15 20:11:33] Intentando crear punto de restauración del sistema...
+[2025-11-15 20:11:35] Aplicando ajustes para Gaming...
+[2025-11-15 20:11:35] Configurando plan de energía Alto rendimiento...
+[2025-11-15 20:11:35] [DRY-RUN] powercfg -SETACTIVE SCHEME_MIN
+[2025-11-15 20:11:35] Intentando habilitar 'Ultimate Performance'...
+[2025-11-15 20:11:35] [DRY-RUN] powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
+[2025-11-15 20:11:35] [DRY-RUN] RegSet HKLM:\System\CurrentControlSet\Control\GraphicsDrivers :: HwSchMode=2 (DWord)
+[2025-11-15 20:11:35] [DRY-RUN] RegSet HKCU:\Software\Microsoft\GameBar :: ShowStartupPanel=0 (DWord)
+[2025-11-15 20:11:35] [DRY-RUN] RegSet HKCU:\Software\Microsoft\GameBar :: UseGameBar=0 (DWord)
+[2025-11-15 20:11:35] [DRY-RUN] RegSet HKCU:\Software\Microsoft\Windows\CurrentVersion\GameDVR :: AppCaptureEnabled=0 (DWord)
+[2025-11-15 20:11:35] Aplicando optimizaciones agresivas (usa con precaución)...
+[2025-11-15 20:11:35] [DRY-RUN] Stop/Disable SysMain
+[2025-11-15 20:11:35] [DRY-RUN] Stop/Disable XblGameSave
+[2025-11-15 20:11:35] [DRY-RUN] Stop/Disable XboxGipSvc
+[2025-11-15 20:11:35] [DRY-RUN] Stop/Disable XboxNetApiSvc
+[2025-11-15 20:11:35] [DRY-RUN] Stop/Disable WSearch
+[2025-11-15 20:12:09] Modo Dry-Run: se omite elevación de administrador.
+[2025-11-15 20:12:09] Inicio del Optimizador (DryRun=True)
+[2025-11-15 20:12:09] Intentando crear punto de restauración del sistema...
+[2025-11-15 20:12:10] Aplicando ajustes para Gaming...
+[2025-11-15 20:12:10] Configurando plan de energía Alto rendimiento...
+[2025-11-15 20:12:10] [DRY-RUN] powercfg -SETACTIVE SCHEME_MIN
+[2025-11-15 20:12:10] Intentando habilitar 'Ultimate Performance'...
+[2025-11-15 20:12:10] [DRY-RUN] powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61
+[2025-11-15 20:12:10] [DRY-RUN] RegSet HKLM:\System\CurrentControlSet\Control\GraphicsDrivers :: HwSchMode=2 (DWord)
+[2025-11-15 20:12:10] [DRY-RUN] RegSet HKCU:\Software\Microsoft\GameBar :: ShowStartupPanel=0 (DWord)
+[2025-11-15 20:12:10] [DRY-RUN] RegSet HKCU:\Software\Microsoft\GameBar :: UseGameBar=0 (DWord)
+[2025-11-15 20:12:10] [DRY-RUN] RegSet HKCU:\Software\Microsoft\Windows\CurrentVersion\GameDVR :: AppCaptureEnabled=0 (DWord)
+[2025-11-15 20:12:10] Aplicando optimizaciones agresivas (usa con precaución)...
+[2025-11-15 20:12:10] [DRY-RUN] Stop/Disable SysMain
+[2025-11-15 20:12:10] [DRY-RUN] Stop/Disable XblGameSave
+[2025-11-15 20:12:10] [DRY-RUN] Stop/Disable XboxGipSvc
+[2025-11-15 20:12:10] [DRY-RUN] Stop/Disable XboxNetApiSvc
+[2025-11-15 20:12:10] [DRY-RUN] Stop/Disable WSearch
+[2025-11-15 20:12:10] [DRY-RUN] fsutil behavior set disablelastaccess 1
+[2025-11-15 20:12:10] [DRY-RUN] RegSet HKLM:\System\CurrentControlSet\Control\GraphicsDrivers :: HwSchMode=1 (DWord)
+[2025-11-15 20:12:10] [DRY-RUN] RegSet HKLM:\Software\Policies\Microsoft\Windows\OneDrive :: DisableFileSyncNGSC=1 (DWord)
+[2025-11-15 20:12:10] [DRY-RUN] RegDel HKCU:\Software\Microsoft\Windows\CurrentVersion\Run :: OneDrive
+[2025-11-15 20:12:10] OneDrive bloqueado por políticas y removido del arranque del usuario actual.
